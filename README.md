@@ -6,21 +6,31 @@ It highlights the product’s features, pricing plans, and call-to-action areas 
 🚀 Features
 
 Fully responsive layout
+
 Elegant hero section with CTA button
+
 Feature highlight grid cards
+
 Pricing section with selectable plans
+
 Footer sections
+
 Built with accessibility and performance in mind
 
 🛠️ Tech Stack
 
 React (Vite) — for fast, modular UI
+
 Tailwind CSS — for utility-first responsive styling
+
 Shadcn UI — for reusable, elegant components
+
 Lucide Icons — for simple, scalable icons
+
 Deployed on Vercel
 
 🧱 Project Structure
+
 src/
  ├── home components/
  │   ├── Nav.tsx
@@ -36,6 +46,7 @@ src/
 🌍 Live Demo
 
 🔗 View on Vercel
+
  (Add your deployment link here)
 
 📸 Preview
@@ -45,5 +56,7 @@ src/
 💡 Future Improvements
 
 Add smooth scroll animations
+
 Connect newsletter form to backend API
+
 Add dark/light mode toggle
