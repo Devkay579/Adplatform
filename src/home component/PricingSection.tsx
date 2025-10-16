@@ -9,6 +9,8 @@ const Price = () => {
     const [active, setActive] = useState(0);
     const [activebut, setActiveBut] = useState(0);
 
+    activebut
+
     const plans = [
         { title: "Basic", price: "$29", anim:"slideLeft", features: ["5,000 Email Sends/month", "Basic Analytics Dashboard", "Community Support", "Standard SMTP Integration", "Limited Audience Segments", "Monthly Reports"], but: "Start Plan" },
         { title: "Pro", price: "$99", anim:"slideUp", features: ["Unlimited Email Sends", "Advanced Analytics Dashboard", "Dedicated Email Support", "Custom SMTP Integration", "Unlimited Audience Segments", "Real-time Revenue Tracking", "A/B Testing", "GDPR Compliance Tools"], but: "Start Pro Plan" },
@@ -30,7 +32,7 @@ const Price = () => {
                         // const { ref, inView } = useInView({triggerOnce: true, threshold: 0.2 });
 
                         return(
-                            <div key={index} ref={ref} onClick={() => setActive(index)} className={`card p-6 border rounded-[2px] cursor-pointer transition-colors hover:shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between
+                            <div key={index} ref={ref} onClick={() => setActive(index)} className={`card p-6 border rounded-[2px] cursor-pointer hover:shadow-lg hover:scale-105 transition-transform duration-300 flex flex-col justify-between
                             ${active === index ? "bg-blue-50 border-blue-500" : "bg-white border-gray-300 hover:border-blue-300"} ${plan.anim === "slideLeft" && inView ? "animate-slideLeft" : "" } ${plan.anim === "slideUp" && inView ? "animate-slideUp" : "" } ${plan.anim === "slideRight" && inView ? "animate-slideRight" : "" }`} style={{animationPlayState: inView ? "running" : "paused"}}>
                                 <div>
                                     <h3 className="text-2xl sm:text-4xl mb-4 font-bold">{plan.title}</h3>
