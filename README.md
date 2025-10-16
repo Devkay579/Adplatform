@@ -17,6 +17,7 @@ Footer sections
 
 Built with accessibility and performance in mind
 
+
 🛠️ Tech Stack
 
 React (Vite) — for fast, modular UI
@@ -29,19 +30,31 @@ Lucide Icons — for simple, scalable icons
 
 Deployed on Vercel
 
+
 🧱 Project Structure
 
 src/
+
  ├── home components/
+
  │   ├── Nav.tsx
+
  │   ├── Hero.tsx
+
  │   ├── Features.tsx
+
  │   ├── Platform.tsx
+
  │   ├── PricingSection.tsx
+
  │   ├── Contact.tsx
+
  │   └── Footer.tsx
+
  ├── App.tsx
+
  └── main.tsx
+
 
 🌍 Live Demo
 
@@ -49,9 +62,11 @@ src/
 
  (Add your deployment link here)
 
+
 📸 Preview
 
 (Add screenshots or design mockups here)
+
 
 💡 Future Improvements
 
