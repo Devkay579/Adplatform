@@ -3,6 +3,10 @@
 The Ad and Newsletter Platform Landing Page is a clean, responsive one-page website designed to showcase a digital advertising and newsletter management platform.
 It highlights the product’s features, pricing plans, and call-to-action areas with a modern, minimal aesthetic.
 
+
+
+
+
 🚀 Features
 
 Fully responsive layout
@@ -18,6 +22,9 @@ Footer sections
 Built with accessibility and performance in mind
 
 
+
+
+
 🛠️ Tech Stack
 
 React (Vite) — for fast, modular UI
@@ -29,6 +36,9 @@ Shadcn UI — for reusable, elegant components
 Lucide Icons — for simple, scalable icons
 
 Deployed on Vercel
+
+
+
 
 
 🧱 Project Structure
@@ -56,6 +66,9 @@ src/
  └── main.tsx
 
 
+
+
+
 🌍 Live Demo
 
 🔗 View on Vercel
@@ -63,11 +76,17 @@ src/
  (Add your deployment link here)
 
 
+
+
+
 📸 Preview
 
 ![App Preview](public/images/first.png)
 ![App Preview](public/images/second.png)
 ![App Preview](public/images/third.png)
+
+
+
 
 
 💡 Future Improvements
