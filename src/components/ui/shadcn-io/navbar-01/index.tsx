@@ -6,7 +6,6 @@ import { useEffect, useState, useRef } from 'react';
 import {
   NavigationMenu,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
 } from '@/components/ui/navigation-menu';
 import {
@@ -294,7 +293,7 @@ export const Navbar01 = React.forwardRef<HTMLElement, Navbar01Props>(
             <Button
               variant="ghost"
               size="sm"
-              className="text-sm font-medium hover:border hover hover:border-[1px] hover:border-[#4A67F8] cursor-pointer"
+              className="text-sm font-medium  hover hover:border-[1px] hover:border-[#4A67F8] cursor-pointer"
               onClick={(e) => {
                 e.preventDefault();
                 if (onSignInClick) onSignInClick();
@@ -304,7 +303,7 @@ export const Navbar01 = React.forwardRef<HTMLElement, Navbar01Props>(
             </Button>
             <Button
               size="sm"
-              className="text-sm font-medium px-4 h-9 bg-[#4A67F8] hover:bg-white hover:text-black hover:border hover:border-[1px] hover:border-[#4A67F8] cursor-pointer text-white rounded-md shadow-sm"
+              className="text-sm font-medium px-4 h-9 bg-[#4A67F8] hover:bg-white hover:text-black  hover:border-[1px] hover:border-[#4A67F8] cursor-pointer text-white rounded-md shadow-sm"
               onClick={(e) => {
                 e.preventDefault();
                 if (onCtaClick) onCtaClick();
