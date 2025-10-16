@@ -4,7 +4,7 @@ import Footer from "@/home component/footer";
 import Hero from "@/home component/hero";
 import Navbar from "@/home component/nav";
 import Platform from "@/home component/platform";
-import Price from "@/home component/price";
+import Price from "@/home component/PricingSection";
 
 const Home = () => {
     return ( 

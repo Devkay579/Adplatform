@@ -1,3 +1,5 @@
+import { Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
+
 const Footer = () => {
     return ( 
         <footer>
@@ -7,10 +9,10 @@ const Footer = () => {
                         <img src="" alt="logo" />
                         <h1 className="opacity-50">Empowering publishers and advertisers with advanced tools <br /> for growth and compliance.</h1>
                         <div className="flex gap-2">
-                            <img src="images/t1.png" alt="" />
-                            <img src="images/t2.png" alt="" />
-                            <img src="images/t3.png" alt="" />
-                            <img src="images/t4.png" alt="" />
+                            <Facebook className="w-5 h-5" />
+                            <Twitter className="w-5 h-5" />
+                            <Linkedin className="w-5 h-5" />
+                            <Youtube className="w-5 h-5" />
                         </div>
                     </div>
                     <div className="">
