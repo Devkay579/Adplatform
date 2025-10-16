@@ -65,7 +65,9 @@ src/
 
 📸 Preview
 
-(Add screenshots or design mockups here)
+![App Preview](public/images/first.png)
+![App Preview](public/images/second.png)
+![App Preview](public/images/third.png)
 
 
 💡 Future Improvements
